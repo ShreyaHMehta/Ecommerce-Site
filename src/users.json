@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "name": "Shreya",
+        "age": 40,
+        "address":     
+            {
+                "country": "India",
+                "state": "Gujarat",
+                "city": "Ahmedabad"
+            }               
+    },
+    {
+        "id": 2,
+        "name": "Hardik",
+        "age": 40,
+        "address":     
+            {
+                "country": "India",
+                "state": "Gujarat",
+                "city": "Ahmedabad"
+            }       
+        
+    },
+    {
+        "id": 3,
+        "name": "Priyaan",
+        "age": 9,
+        "address":     
+            {
+                "country": "India",
+                "state": "Gujarat",
+                "city": "Ahmedabad"
+            }   
+    },
+    {
+        "id": 5,
+        "name": "Pratima",
+        "age": 40,
+        "address":     
+            {
+                "country": "India",
+                "state": "Gujarat",
+                "city": "Rajkot"
+            }   
+    },
+    {
+        "id": 6,
+        "name": "Niranjan",
+        "age": 40,
+        "address":     
+            {
+                "country": "India",
+                "state": "Gujarat",
+                "city": "Rajkot"
+            } 
+    },
+    {
+        "id": 4,
+        "name": "Shree",
+        "age": 40,
+        "address":     
+            {
+                "country": "India",
+                "state": "Maharashtra",
+                "city": "Pune"
+            } 
+    },
+    {
+        "id": 5,
+        "name": "Jack",
+        "age": 15,
+        "address":     
+            {
+                "country": "USA",
+                "state": "California",
+                "city": "Hollywood"
+            } 
+    },
+    {
+        "id": 6,
+        "name": "Caroline",
+        "age": 52,
+        "address":     
+            {
+                "country": "USA",
+                "state": "Florida",
+                "city": "Miami"
+            } 
+    },
+    {
+        "id": 7,
+        "name": "Mona",
+        "age": 40,
+        "address":     
+            {
+                "country": "UK",
+                "state": "Wales",
+                "city": "Newport"
+            } 
+    },
+    {
+        "id": 8,
+        "name": "George",
+        "age": 60,
+        "address":     
+            {
+                "country": "USA",
+                "state": "Michigan",
+                "city": "Cadillac"
+            } 
+    },
+    {
+        "id": 9,
+        "name": "Duke",
+        "age": 9,
+        "address":     
+            {
+                "country": "USA",
+                "state": "Michigan",
+                "city": "Detroit"
+            } 
+    },
+    {
+        "id": 10,
+        "name": "Kevin",
+        "age": 11,
+        "address":     
+            {
+                "country": "UK",
+                "state": "England",
+                "city": "Bristol"
+            } 
+    }
+]
