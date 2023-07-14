@@ -1,19 +1,26 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import Card from './Card';
-import Users from './users.json';
-import SortUsers from './sortUsers';
 
+import Navbar from "./components/navbar";
+import Home from "./routes/Home";
+import Items from  "./routes/items";
+import Cart from "./routes/Cart";
+import Orders from "./routes/Orders";
 
-export default function App() {
+export default function App() {  
   return (
-      <div>
-          
+      <Router>
+        <Navbar />
+        <Routes>
+        <Route path='/' exact component={Home} />
+        <Route path='/Items' component={Items} />
+        <Route path='/Orders' component={Orders} />
+        <Route path='/Cart' component={Cart} />
+      </Routes>
         
-        <Card users={Users} />
-        <button onClick={() => SortUsers({users: Users}) }><h3>Age</h3></button>
           
-      </div>
+      </Router>     
   )
 }
