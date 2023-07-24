@@ -7,11 +7,11 @@ function Navbar() {
   return (
     <nav>
       <ul className='navbar-list'>
-        <li>
+        {/* <li>
         <Link to="/">Home</Link>
-        </li>
+        </li> */}
         <li>
-          <Link to="/items">Items</Link>
+          <Link to="/">Items</Link>
         </li>
         <li>
           <Link to="/orders">Orders</Link>
